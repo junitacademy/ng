@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("../node_modules/normalize.css/normalize.css");
+
+/** Colors */
+$green: #00812b;
+$red: #9b0000;
+
+body{
+  font-family:sans-serif;
+}
+
+button {
+  -webkit-user-drag: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  line-height: normal;
+  user-select: none;
+  vertical-align: middle;
+  background-color: #e6e6e6;
+  border: transparent;
+  border-radius: 2px;
+  color: rgba(0,0,0,.8);
+  font-size: 100%;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
